@@ -94,11 +94,4 @@ Skill 内置了执行流程、平台决策表和常见坑（pypi 镜像、QEMU�
 
 - **共享链接**：https://pan.quark.cn/s/a11d36e36da7 （公开链接，永久有效）
 
-| 安装包 | 平台 | 说明 |
-| --- | --- | --- |
-| langgenius-openai_api_compatible_0.0.68-offline-linux-amd64.difypkg | x86_64 | OpenAI API 兼容模型接入 |
-| langgenius-openai_api_compatible_0.0.68-offline-linux-arm64-v2.difypkg | arm64 | 同上（v2 为修正版，请用 v2） |
-| langgenius-agent_0.0.50-offline.difypkg | x86_64 | Agent 策略插件 |
-| yzddmr6-chatflow_invoker_0.0.6-offline.difypkg | x86_64 | ChatFlow 调用器 |
-
-> 共享目录中的「废弃-勿用」子文件夹是早期打错平台的旧文件，忽略即可。
+有需要的可以在issue中提，需要标明是**x86_64 (amd64)**还是**ARM64 (arm64)** 平台，以及需要的插件名称和版本。
