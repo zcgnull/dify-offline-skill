@@ -1,0 +1,4 @@
+packager/bin/dify-plugin-cli-*
+packager/difypkg/*
+!packager/difypkg/.gitkeep
+packager/.env
