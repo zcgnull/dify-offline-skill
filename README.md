@@ -87,3 +87,18 @@ Skill 内置了执行流程、平台决策表和常见坑（pypi 镜像、QEMU�
 - **`exec format error`**：打 arm64 包但没装 QEMU/binfmt
 - **CLI 下载失败**：fetch-cli.sh 已内置 gh-proxy.com / gh.llkk.cc 镜像回退，均失败可手动下载 release 资产 `dify-plugin-linux-<arch>` 重命名放入 `bin/`
 - **Docker 拉镜像断流**：daemon 镜像 2GB+，重试几次或配置 registry mirror
+
+## 打包产物共享（夸克网盘）
+
+已打包的离线安装包统一存放在夸克网盘共享目录，可直接下载使用：
+
+- **共享链接**：https://pan.quark.cn/s/a11d36e36da7 （公开链接，永久有效）
+
+| 安装包 | 平台 | 说明 |
+| --- | --- | --- |
+| langgenius-openai_api_compatible_0.0.68-offline-linux-amd64.difypkg | x86_64 | OpenAI API 兼容模型接入 |
+| langgenius-openai_api_compatible_0.0.68-offline-linux-arm64-v2.difypkg | arm64 | 同上（v2 为修正版，请用 v2） |
+| langgenius-agent_0.0.50-offline.difypkg | x86_64 | Agent 策略插件 |
+| yzddmr6-chatflow_invoker_0.0.6-offline.difypkg | x86_64 | ChatFlow 调用器 |
+
+> 共享目录中的「废弃-勿用」子文件夹是早期打错平台的旧文件，忽略即可。
